@@ -1,2 +1,6 @@
 .pelicula img {
+ width: 16%;
+}
+.pelicula{
+    justify-content: space-around;
 }
