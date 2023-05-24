@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectodiseñoweb</title>
+
     <link rel="stylesheet" type="text/css" href="PAGINAPRINCIPAL/estilos.css">
     <link rel="stylesheet" href="PAGINAPRINCIPAL/estilocartelera.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="Peliculas/catalogo.css">
+
 </head>
 <body>
 
@@ -16,12 +20,18 @@
     </header>
 
     <nav>
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
+        <ul class="nav">
+            <div class = "menu">
+                <a class = "c" href = "#"><div>PROXIMAMENTE</div></a>
+                <a class = "c" href = "#"><div>HORARIOS</div></a>
+                <a class = "c" href = "#"><div>OFERTAS</div></a>
+                <a class = "c" href = "#"><div>CONFITERIA</div></a>
+            </div>
+            <!--<li><a href="#">Inicio</a></li>
             <li><a href="#">Cartelera</a></li>
             <li><a href="#">Proximamente</a></li>
             <li><a href="#">Horarios</a></li>
-            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Ofertas</a></li>-->
         </ul>
     </nav>
 
@@ -42,7 +52,7 @@
         </div>
         <div class="contenedor">
             Peliculas:<br>
-            <div class="columna">
+            <div class="pelicula">
                 <a href="#"><img src="Peliculas/1/portada.jpg" alt="imagen1" height="300"></a>
                 <a href="#"><img src="Peliculas/2/portada.jpg" alt="imagen2" height="300"></a>
                 <a href="#"><img src="Peliculas/3/portada.jpg" alt="imagen3" height="300"></a>
@@ -52,15 +62,15 @@
             </div>
         </div>
         <div class="galeria">
-            Galeria:<br>
+            Confiteria:<br>
             <img src="PAGINAPRINCIPAL/img/flex/flex1.png" alt="Descripcion de la Imagen #1">
             <img src="PAGINAPRINCIPAL/img/flex/flex2.jpg" alt="Descripcion de la Imagen #2">
         </div>
     </main>
-
-    <h2>CARTELERA</h2>
-    
-    <H2>PROXIMAMENTE</H2>
-    
+    <footer>
+        <h2>CARTELERA</h2>
+        
+        <H2>PROXIMAMENTE</H2>
+    </footer>
 </body>
 </html>
