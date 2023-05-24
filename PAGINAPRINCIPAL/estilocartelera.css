@@ -49,14 +49,18 @@
 
 .galeria img {
 	vertical-align: top;
-	opacity: 0.5;
-	width: 200px;
-	margin: 20px;
+	opacity: 1;
+	width: 170px;
+	margin: 25px;
 	padding: 5px;
 	border:1px solid #484848;
-	height: 100px;
+	height: 170px;
 }
 .galeria img:hover {
 	border:1px solid #fff;
-	opacity: 1;
+	opacity: 0.3;
+}
+.vistadetitulos{
+    background: rgb(187, 69, 0);
+    color: #d7dbcb;
 }
