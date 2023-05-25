@@ -64,3 +64,7 @@
     background: rgb(187, 69, 0);
     color: #d7dbcb;
 }
+.titulo{
+	display: flex;
+	flex-flow: row;
+}

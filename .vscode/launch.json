@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar Chrome para localhost",
-            "url": "http://localhost:8080",
+            "url": "C:/Users/LABORATORIO/DISE%C3%91OWEBI/Proyecto_final-5/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
