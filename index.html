@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="Peliculas/catalogo.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
     <div class="titulo">
-        <img src="PAGINAPRINCIPAL/imagenes/logocine.png" width="100" alt="logocine">
-        <h1>CINECCC</h1>
+        <img id="estilologo" src="PAGINAPRINCIPAL/imagenes/logocine.png" width="100" alt="logocine">
+        <h1 class="estilotitulo">CINECC</h1>
     </div>
         <nav>
             <ul class="nav">
@@ -52,7 +55,7 @@
             </ul>
         </div>
         <div class="contenedor">
-            <h2 class="vistadetitulos">CARTELERA:</h2><br>
+            <h2 class="texto">CARTELERA:</h2>
             <div class="pelicula">
                 <a href="#"><img src="Peliculas/1/portada.jpg" alt="imagen1"></a>
                 <a href="#"><img src="Peliculas/2/portada.jpg" alt="imagen2"></a>
@@ -69,10 +72,10 @@
             </div>
         </div>
         <div>
-            <h2 class="vistadetitulos">PROXIMAMENTE:</h2>
+            <h2 class="texto">PROXIMAMENTE:</h2>
         </div>
         <div class="galeria">
-            <h2 class="vistadetitulos">CONFITERIA:</h2><br>
+            <h2 class="texto">CONFITERIA:</h2><br>
             <img src="PAGINAPRINCIPAL/img/flex/flexn1.jpg" alt="combo1">
             <img src="PAGINAPRINCIPAL/img/flex/flexn2.jpg" alt="combo1">
             <img src="PAGINAPRINCIPAL/img/flex/flexn3.jpg" alt="combo1">
@@ -83,12 +86,10 @@
             <img src="PAGINAPRINCIPAL/img/flex/flexn8.jpg" alt="combo1">
             <img src="PAGINAPRINCIPAL/img/flex/flexn9.jpg" alt="combo1">
             <img src="PAGINAPRINCIPAL/img/flex/flexn10.jpg" alt="combo1">
-
-
         </div>
     </main>
     <footer>
-        <div class="vistadetitulos">
+        <div class="texto">
         <h2>SOPORTE TECNICO</h2>
         <p class="parrafos">El soporte técnico es el servicio que las empresas
              ofrecen para responder las dudas de los clientes 
@@ -103,11 +104,14 @@
                y aprovechar al máximo todas sus prestaciones.</p>
         <h2>CONTACTOS</h2>
         </div>
-        <div>
+        <div class="contactos">
+            <div class="contenedorcontactos">
             <a href="#"><img src="PAGINAPRINCIPAL/img/contactos/face.png" width="60px" height="60px" alt="contactofacebook"></a>
             <a href="#"><img src="PAGINAPRINCIPAL/img/contactos/ims.png" width="60px" height="60px" alt="contactoimstagram"></a>
             <a href="#"><img src="PAGINAPRINCIPAL/img/contactos/wat.png" width="60px" height="60px" alt="contactowatsapp"></a>
             <a href="#"><img src="PAGINAPRINCIPAL/img/contactos/tik.png" width="60px" height="60px" alt="contactotiktok"></a>
+            </div>
+
         </div>
     </footer>
 </body>
