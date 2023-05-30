@@ -1,31 +1,36 @@
-body{
+.bg0 {
 	background-color: rgb(255, 244, 227);
+}
+.bg1 {
+	background-color: rgb(249, 133, 56);
+}
+.bg2 {
+	background-color: rgb(140, 30, 5);
+	color: #f2daad;
+	border: none;
+}
+.bg3{
+	background: rgb(140, 30, 5, 0.5);
 }
 .titulo{
 	display: flex;
 	flex-flow: row;
-	background: #ff823a;
 }
 .estilotitulo{
-	background: rgba(196, 95, 37, 0.699);
 	font-size: 55px;
-	margin-top: 0.3%;
-	margin-left: 0.3%;
+	margin: 5px;
 	text-align: center;
-	padding: 0.3%;
+	padding: 0.5%;
 	border-radius: 50px;
 	color: #ebc47d;
 	width: 90%;
-	margin-bottom: 0.3%;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-#estilologo{
-	margin-left: 0.1%;
-	background: rgb(140, 30, 5, 0.5);
+.estilologo{
+	margin: 5px;
 	border-radius: 100%;
 }
 .menu{
-    background-color: rgb(140, 30, 5);
     width:  100%;
     height: 50px;
     display: flex;
@@ -34,19 +39,14 @@ body{
     margin-top: 0%;
 }
 .c{
-    border-width: 100px;
     width: 25%;
-    padding: 11px;
-
+    padding: 13px;
     text-align: center;
     text-decoration: none;
     font-family: monospace;
     font-weight: bold;
-    font-size: 150%;
-    color: #f2daad;
-
+    font-size: 180%;
 }
-
 .c:hover {
     background-color: rgb(115, 25, 4);
 }
@@ -96,6 +96,9 @@ body{
 	100% {margin-left: -400%;}
 }
 .galeria {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
@@ -103,7 +106,7 @@ body{
 	vertical-align: top;
 	opacity: 1;
 	width: 170px;
-	margin: 20px;
+	margin: 30px;
 	padding: 5px;
 	border:1px solid #484848;
 	height: 170px;
@@ -115,13 +118,11 @@ body{
 .texto{
 	align-items: center;
 	padding: 0.3%;
-    background: rgb(140, 30, 5);
     color: #f2daad;
 	text-align: center;
 }
 .contactos{
 	padding: 0.3%;
-    background: rgb(140, 30, 5);
     color: #f2daad;
 }
 .contenedorcontactos{
