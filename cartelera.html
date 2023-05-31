@@ -27,36 +27,7 @@
     <script type="module">
         let id = window.location.href.split('#').pop();//ID obtiene la ultima letra de toda la url
         let dir = "pelicula/cartelera/" + id + "/"
-
-        fetch('pelicula/1.html')
-            .then(response => {
-                response.text();
-                document.write("no se");
-            })
-            .then(data => {
-                document.write("cargo correctamente");
-                document.getElementById("temp").innerHTML = data;
-            })
-            .catch(error => {
-                document.write(error);
-            });
-        /*let xhttp;
-        let element = document.getElementById("temp");
-        let file = "1.html";
-
-        if (file) {
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function(){
-                element.innerHTML = this.responseText;
-            }
-            xhttp.open("get", file , true);
-            xhttp.send();
-            return;
-        }*/
-
-
-        
-        document.getElementById("portada").src = dir + "portada.jpg";
+            document.getElementById("portada").src = dir + "portada.jpg";
         
 
         //document.write(data.titulo);
