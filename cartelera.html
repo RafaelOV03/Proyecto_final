@@ -29,7 +29,10 @@
         let dir = "pelicula/cartelera/" + id + "/"
 
         fetch('pelicula/1.html')
-            .then(response => response.text())
+            .then(response => {
+                response.text();
+                document.write("no se");
+            })
             .then(data => {
                 document.write("cargo correctamente");
                 document.getElementById("temp").innerHTML = data;
