@@ -14,24 +14,31 @@
 <body>
     <header>
         <div class="titulo bg1">
-            <a href="../../index.html"><img id="estilologo" src="../../../img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
+            <a href="../../../index.html"><img id="estilologo" src="../../../img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
             <h1 class="estilotitulo bg3">CINECC</h1>
         </div>
     </header>
-    <h2 class="texto bg2" id="cartelera">DETALLES SOBRE LA PELICULA</h2>
-    <div class="divsub">
+    
+    <h2 class="texto bg2" id="cartelera">LA EX</h2>
+    <div class="divsub subtitulos">
+        <img src="portada.jpg" alt="pelicula">
+        <div>
+            <div><strong><p>
+            A los 16 años, Sasha puso en Internet la foto de su supuesta novia, una chica espectacular, para presumir ante sus amigos. Años después, y a punto de casarse, la chica de la foto reaparece para convertir su vida en una pesadilla.<br>
+            </p><br></div>
+            <div>Duracion: 1h 30m</div><br>
+            <div id = "tiempo"></div><br>
+        </strong></div>
 
-        <strong>
-    <p class="subtitulos">NOMBRE DE LA PELICULA:........ <br>
-        DETALLES DE LA PELICULA :..........<br>
-        DURACIONM DE LA PELICULA:......... <br>
-        FECHA DE ESTRENO DE LA PELICULA:......... <br>
-    </p>
-        </strong>
     </div>
-    <a href="#"><img class = "peliculapestaña" src="portada.jpg" alt="pelicula" width = "40%"></a>
+    <script src="../../../script/fecha.js"></script>
+    <script>
+        document.getElementById("tiempo").textContent = "Fecha de estreno: 11 de marzo del 2021 (" + hace(11,03,2021) + ")";
+    </script>
     <h2 class="texto bg2" id="cartelera">TRAILER</h2>
-    <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/6iIgkTLGV9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div  class="trailer">
+        <iframe width="60%" height="600px" src="https://www.youtube.com/embed/6iIgkTLGV9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <footer>
         <div class="texto footer bg2">
             <div class = "ft">
@@ -48,10 +55,10 @@
             <h2>CONTACTOS</h2>
                 <div class="contactos texto">
                     <div class="contenedorcontactos">
-                        <a href="#"><img src="../../PAGINAPRINCIPAL/img/contactos/face.png" width="60px" height="60px" alt="contactofacebook"></a>
-                        <a href="#"><img src="../../PAGINAPRINCIPAL/img/contactos/ims.png" width="60px" height="60px" alt="contactoimstagram"></a>
-                        <a href="#"><img src="../../PAGINAPRINCIPAL/img/contactos/wat.png" width="60px" height="60px" alt="contactowatsapp"></a>
-                        <a href="#"><img src="../../PAGINAPRINCIPAL/img/contactos/tik.png" width="60px" height="60px" alt="contactotiktok"></a>
+                        <a href="#"><img src="../../../img/contactos/face.png" width="60px" height="60px" alt="contactofacebook"></a>
+                        <a href="#"><img src="../../../img/contactos/ims.png" width="60px" height="60px" alt="contactoimstagram"></a>
+                        <a href="#"><img src="../../../img/contactos/wat.png" width="60px" height="60px" alt="contactowatsapp"></a>
+                        <a href="#"><img src="../../../img/contactos/tik.png" width="60px" height="60px" alt="contactotiktok"></a>
                     </div>
                 </div>  
             </div>
