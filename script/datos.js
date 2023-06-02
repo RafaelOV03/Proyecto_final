@@ -92,21 +92,57 @@ function datos(id){
             document.getElementById("duracion").textContent = 
             "Duracion: 2h 16m";
             document.getElementById("tiempo").textContent = 
-            "Fecha de estreno: 24 de mayo del 2023";
+            "Fecha de estreno: 2 de junio del 2023";
             document.getElementById("trailer").src = 
-            "https://www.youtube.com/embed/L0anWmmd8TI";
+            "https://www.youtube.com/embed/cqGjhVJWtEg";
         break;
         case 9:
             document.getElementById("titulo").textContent = 
-            "John Wick 4";
+            "The Flash";
             document.getElementById("descripcion").textContent = 
-            "El marqués Vincent de Gramont pretende matar a John Wick para afianzar su poder en la Orden Suprema. Sin embargo, John tratará de adelantarse a cada uno de sus movimientos hasta lograr enfrentarse cara a cara con su peor enemigo.";
+            "The Flash es una próxima película estadounidense de superhéroes basada en el personaje homónimo de DC Comics. Producida por DC Studios, The Disco Factory y Double Dream y distribuida por Warner Bros. Pictures, pretende ser la decimotercera película del Universo extendido de DC.";
             document.getElementById("duracion").textContent = 
-            "Duracion: 2h 49m";
+            "Duracion: 2h 24m";
             document.getElementById("tiempo").textContent = 
-            "Fecha de estreno: 24 de mayo del 2023";
+            "Fecha de estreno: 16 de junio de 2023";
             document.getElementById("trailer").src = 
-            "https://www.youtube.com/embed/L0anWmmd8TI";
+            "https://www.youtube.com/embed/w9s5B9EmMJw";
+        break;
+        case 10:
+            document.getElementById("titulo").textContent = 
+            "Elemental";
+            document.getElementById("descripcion").textContent = 
+            "Elemental es una próxima película de fantasía romántica animada por computadora estadounidense producida por Walt Disney Pictures y Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 1h 42m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 16 de junio de 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/hXzcyx9V0xw";
+        break;
+        case 11:
+            document.getElementById("titulo").textContent = 
+            "Mission: Impossible – Dead Reckoning";
+            document.getElementById("descripcion").textContent = 
+            "Misión: Imposible 7 es la séptima entrega de la serie cinematográfica Misión Imposible y la tercera película de la serie dirigida por McQuarrie, tras Misión: Imposible - Rogue Nation y Misión: Imposible - Fallout.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 43m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 16 de junio de 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/2m1drlOZSDw";
+        break;
+        case 12:
+            document.getElementById("titulo").textContent = 
+            "Indiana Jones and the Dial of Destiny";
+            document.getElementById("descripcion").textContent = 
+            "Quinta película de la saga que sigue las aventuras del arqueólogo Indiana Jones.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 34m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 30 de junio de 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/eQfMbSe7F2g";
         break;
     }
     document.getElementById("portada").src = "pelicula/cartelera/"+id+"/portada.jpg";
