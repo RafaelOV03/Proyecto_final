@@ -61,7 +61,9 @@
     <script src="script/fecha.js"></script>
     <script src="script/datos.js"></script>
     <script>
-        datos(1);
+        let url = 0;
+        url = parseInt(window.location.href.split('#').pop()); 
+        datos(url);
     </script>
 
     <footer>

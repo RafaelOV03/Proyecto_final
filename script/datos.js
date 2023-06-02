@@ -13,13 +13,64 @@ function datos(id){
             "https://www.youtube.com/embed/6iIgkTLGV9M";
         break;
         case 2:
-            return "";
+            document.getElementById("titulo").textContent = 
+            "No descansaras";
+            document.getElementById("descripcion").textContent = 
+            "El médico obliga a Julie a guardar reposo absoluto durante el embarazo, pero, entonces, ella empieza a experimentar sucesos paranormarles y ver figuras fantasmagóricas mientras está tumbada en la cama.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 1h 30m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 15 de julio del 2022";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/h-2QIJS-U0c";
         break;
         case 3:
-            return "";
+            document.getElementById("titulo").textContent = 
+            "Super Mario Bros. La Pelicula";
+            document.getElementById("descripcion").textContent = 
+            "Dos hermanos plomeros, Mario y Luigi, caen por las alcantarillas y llegan a un mundo subterráneo mágico en el que deben enfrentarse al malvado Bowser para rescatar a la princesa Peach, quien ha sido forzada a aceptar casarse con él.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 1h 30m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 5 de abril del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/_1f2RLdxQfA";
         break;
         case 4:
-            return "";
+            document.getElementById("titulo").textContent = 
+            "Guardianes de la galaxia Vol.3";
+            document.getElementById("descripcion").textContent = 
+            "Guardianes de la Galaxia vol. 3 es una película de superhéroes estadounidense basada en el equipo de superhéroes Guardianes de la Galaxia, perteneciente a Marvel Comics.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 30m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 4 de mayo del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/u3V5KDHRQvk";
+        break;
+        case 5:
+            document.getElementById("titulo").textContent = 
+            "Rápidos y furiosos 9: La saga de Rápidos ";
+            document.getElementById("descripcion").textContent = 
+            "Dom Toretto vive una vida tranquila junto a Letty y su hijo, pero el peligro siempre regresa a su vida. En esta ocasión, el equipo se enfrenta a un complot mundial orquestado por el asesino más temible del mundo: el hermano de Dom.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 15m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 25 de junio del 2021";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/3YNwcdVkpZQ";
+        break;
+        case 4:
+            document.getElementById("titulo").textContent = 
+            "John Wick 4";
+            document.getElementById("descripcion").textContent = 
+            "El marqués Vincent de Gramont pretende matar a John Wick para afianzar su poder en la Orden Suprema. Sin embargo, John tratará de adelantarse a cada uno de sus movimientos hasta lograr enfrentarse cara a cara con su peor enemigo.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 49m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 24 de mayo del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/L0anWmmd8TI";
         break;
     }
     document.getElementById("portada").src = "pelicula/cartelera/"+id+"/portada.jpg";
