@@ -28,20 +28,29 @@
 	margin-bottom: 30px
 }
 .imagenes-pelicula{
-	justify-content: space-around;
 	display: flex;
-	width: 90%;
+	margin-left: 2%;
+	width: 95%;
+	background-color:#420303;
+	border-radius: 10px;
 }
 .imagenes-pelicula img{
-	width: 50%;
-	border:5px solid #420303;
+	width: 30%;
+	border:5px solid #230404;
+	margin: 3%
 }
 .avances{
 	display: grid;
 	width: 25%;
+	grid-template-columns: 120% 120%;
+	align-items: center;
+	padding: 2%;
 }
 .avances img{
-	width: 120%;
+	width: 90%;
+}
+.imagenes-pelicula img:hover{
+	border:5px solid #e09729;
 }
 
 

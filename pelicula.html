@@ -24,29 +24,30 @@
         </nav>
     </header>
     <!--Titulo de la pelicula-->
-    <h2 class="titulo-pelicula">#</h2>
+    <h2 class="titulo-pelicula" id = "titulo">#</h2>
 
     <!-- Imagenes de la pelicula-->
     <div class="informacion-pelicula">
         <div class="imagenes-pelicula" >
-            <img id = "portada" src="pelicula/cartelera/1/portada.jpg" alt="portada">
+            <img id = "portada" src="" alt="portada">
             <div class="avances">
-                <img src="pelicula/cartelera/1/avances/1.png" alt="imagen1">
-                <img src="pelicula/cartelera/1/avances/2.png" alt="imagen3">
-                <img src="pelicula/cartelera/1/avances/3.png" alt="imagen4">
-                <img src="pelicula/cartelera/1/avances/4.png" alt="imagen5">
+                <img id = "avance1" src="" alt="imagen1">
+                <img id = "avance2" src="" alt="imagen3">
+                <img id = "avance3" src="" alt="imagen4">
+                <img id = "avance4" src="" alt="imagen5">
             </div>
         </div>
         <div class="descripcion" >
             <strong>Descripcion:</strong>
             <p id = "descripcion">
-                A los 16 años, Sasha puso en Internet la foto de su supuesta novia, una chica espectacular, para presumir ante sus amigos. Años después, y a punto de casarse, la chica de la foto reaparece para convertir su vida en una pesadilla.<br>
+                (Sin descripcion)
+               <br>
             </p><br>
             <p id = "duracion">
-                Duracion: 1h 30m
+                Duracion: Desconocida
             </p><br>
             <p id = "tiempo">
-                Desconocido
+                Aun sin fecha de estreno
             </p><br>
         </div>
     </div>
@@ -54,14 +55,13 @@
     <!--Trailer-->
     <div class="trailer">
         <h2>TRAILER:</h2>
-        <iframe id = "trailer" width="80%" height="400" src="https://www.youtube.com/embed/6iIgkTLGV9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe id = "trailer" width="80%" height="400" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <script src="script/fecha.js"></script>
     <script src="script/datos.js"></script>
     <script>
         datos(1);
-        document.getElementById("tiempo").textContent = "Fecha de estreno: 11 de marzo del 2021 (" + hace(11,03,2021) + ")";
     </script>
 
     <footer>
