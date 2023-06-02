@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: monospace;
     text-align: center;
@@ -44,7 +48,7 @@ h2{
     box-shadow: 0px 8px 20px 4px #000000;
 
 }
-.categoria button{
+.categoria button, .categoria a{
     font-family: monospace;
     font-weight: bold;
     text-align: center;
@@ -55,7 +59,7 @@ h2{
     background: none;
 	color: #ebc47d;
 }
-.categoria button:hover{
+.categoria button:hover, .categoria a:hover{
     background-color: rgb(115, 25, 4);
     background-blend-mode: exclusion;
 }

@@ -7,8 +7,6 @@
     <title>Proyectodiseñoweb</title>
 
     <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-    <link rel="stylesheet" href="estilos/estilocartelera.css">
-    <link rel="stylesheet" href="estilos/catalogo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +15,23 @@
 <body>
     <!--Titulo de la pagina CINECC-->
     <header>
-    <div class="titulo">
-        <a href="index.html"><img class="logo" src="img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
-        <h1 class="cinecc">CINECC</h1>
-    </div>
-    <nav>
-        <div class = "categoria">
-            <button onclick="recorrer('cartelera')">CARTELERA</button>
-            <button onclick="recorrer('proximamente')">PROXIMAMENTE</button>
-            <button onclick="recorrer('confiteria')">CONFITERIA</button>
-            <button onclick="recorrer('ofertas')">OFERTAS</button>
-         </div>
-        <script>
-            function recorrer(a){
-                window.scrollTo(0,  window.scrollY + document.querySelector('#' + a).getBoundingClientRect().top);
-            }
-        </script>
-    </nav>
+        <div class="titulo">
+            <a href="index.html"><img class="logo" src="img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
+            <h1 class="cinecc">CINECC</h1>
+        </div>
+        <nav>
+            <div class = "categoria">
+                <button onclick="recorrer('cartelera')">CARTELERA</button>
+                <button onclick="recorrer('proximamente')">PROXIMAMENTE</button>
+                <button onclick="recorrer('confiteria')">CONFITERIA</button>
+                <button onclick="recorrer('ofertas')">OFERTAS</button>
+            </div>
+            <script>
+                function recorrer(a){
+                    window.scrollTo(0,  window.scrollY + document.querySelector('#' + a).getBoundingClientRect().top);
+                }
+            </script>
+        </nav>
     </header>
     <!--Presentacion (Slider)-->
     <main>

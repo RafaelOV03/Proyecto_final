@@ -1,0 +1,103 @@
+/*Titulo*/
+.titulo-pelicula{
+	font-size: 500%;
+	text-shadow:  4px 4px rgb(115, 25, 4);;
+	margin: 10px;
+}
+/*Descripcion*/
+.descripcion{
+	margin: 30px;
+	padding: 50px;
+	background-color: #ebc47d;
+    color: rgb(115, 25, 4);
+	border-radius: 15px;
+	font-size: 27px;
+}
+.descripcion p{
+	font-size: 80%;
+}
+/*Trailer*/
+.trailer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	overflow: hidden;
+	font-size: 200%;
+	margin: 10px;
+	margin-bottom: 30px
+}
+.imagenes-pelicula{
+	justify-content: space-around;
+	display: flex;
+	width: 90%;
+}
+.imagenes-pelicula img{
+	width: 50%;
+	border:5px solid #420303;
+}
+.avances{
+	display: grid;
+	width: 25%;
+}
+.avances img{
+	width: 120%;
+}
+
+
+
+
+
+
+
+
+
+.subtitulos{
+	margin: 2%;
+	border-radius: 10px;
+	padding: 1%;
+	
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	color: #6d5732;
+
+}
+.subtitulos img{
+	margin-left: 10%;
+	width: 35%;
+}
+.subtitulos div{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 100%;
+}
+.trailer{
+	display: flex;
+	justify-content: center;
+}
+
+.galeria2 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.galeria2 img {
+	opacity: 1;
+	width: 190px;
+	margin: 2%;
+	padding: 0.5%;
+	border:1px solid #000000;
+	height: 25%;
+}
+.galeria2 img:hover {
+	border:1px solid #ff0000;
+	opacity: 0.3;
+}
+.contenedordea{
+	align-self: auto;
+	display: flex;
+}
