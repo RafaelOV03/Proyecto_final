@@ -60,7 +60,43 @@ function datos(id){
             document.getElementById("trailer").src = 
             "https://www.youtube.com/embed/3YNwcdVkpZQ";
         break;
-        case 4:
+        case 6:
+            document.getElementById("titulo").textContent = 
+            "John Wick 4";
+            document.getElementById("descripcion").textContent = 
+            "El marqués Vincent de Gramont pretende matar a John Wick para afianzar su poder en la Orden Suprema. Sin embargo, John tratará de adelantarse a cada uno de sus movimientos hasta lograr enfrentarse cara a cara con su peor enemigo.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 49m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 24 de mayo del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/L0anWmmd8TI";
+        break;
+        case 7:
+            document.getElementById("titulo").textContent = 
+            "Transformers: el despertar de las bestias";
+            document.getElementById("descripcion").textContent = 
+            "Durante la década de 1990, los Maximals, Predacons y Terrorcons se unen a la batalla existente en la Tierra entre Autobots y Decepticons.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 7m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 9 de junio del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/Db5SvKPJc-w";
+        break;
+        case 8:
+            document.getElementById("titulo").textContent = 
+            "Spider-Man: a través del Spider-Verso";
+            document.getElementById("descripcion").textContent = 
+            "Después de reunirse con Gwen Stacy, el amigable vecino de tiempo completo de Brooklyn Spiderman, es lanzado a través del multiverso, donde se encuentra a un equipo de gente araña encomendada con proteger su mera existencia.";
+            document.getElementById("duracion").textContent = 
+            "Duracion: 2h 16m";
+            document.getElementById("tiempo").textContent = 
+            "Fecha de estreno: 24 de mayo del 2023";
+            document.getElementById("trailer").src = 
+            "https://www.youtube.com/embed/L0anWmmd8TI";
+        break;
+        case 9:
             document.getElementById("titulo").textContent = 
             "John Wick 4";
             document.getElementById("descripcion").textContent = 
