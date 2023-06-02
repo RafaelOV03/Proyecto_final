@@ -14,29 +14,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
 </head>
-<body class = "bg0">
+<body>
 
     <header>
-    <div class="titulo bg1">
-        <a href="index.html"><img class="estilologo bg3" src="img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
-        <h1 class="estilotitulo bg3">CINECC</h1>
+    <div class="titulo">
+        <a href="index.html"><img class="logo" src="img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
+        <h1 class="cinecc">CINECC</h1>
     </div>
     <nav>
-        <div class = "menu">
-            <button class = "c bg2" onclick="recorrer('cartelera')">CARTELERA</button>
-            <button class = "c bg2" onclick="recorrer('proximamente')">PROXIMAMENTE</button>
-            <button class = "c bg2" onclick="recorrer('confiteria')">CONFITERIA</button>
-            <button class = "c bg2" onclick="recorrer('ofertas')">OFERTAS</button>
-            <button class = "c bg2" onclick="recorrer('horarios')">HORARIOS</button>
-            
-            
+        <div class = "categoria">
+            <button onclick="recorrer('cartelera')">CARTELERA</button>
+            <button onclick="recorrer('proximamente')">PROXIMAMENTE</button>
+            <button onclick="recorrer('confiteria')">CONFITERIA</button>
+            <button onclick="recorrer('ofertas')">OFERTAS</button>
          </div>
         <script>
             function recorrer(a){
                 window.scrollTo(0,  window.scrollY + document.querySelector('#' + a).getBoundingClientRect().top);
             }
         </script>
-
     </nav>
     </header>
 
@@ -56,7 +52,7 @@
             </ul>
         </div>
 
-        <h2 class="texto bg2" id="cartelera">CARTELERA:</h2>
+        <h2 class = "categoria" id="cartelera">CARTELERA:</h2>
         <div class="catalogo">
             <a href="pelicula/cartelera/1/pagina.html"><img class = "pelicula" src="pelicula/cartelera/1/portada.jpg" alt="imagen1"></a>
             <a href="pelicula/cartelera/2/pagina.html"><img class = "pelicula" src="pelicula/cartelera/2/portada.jpg" alt="imagen2"></a>
@@ -71,14 +67,14 @@
             <a href="pelicula/cartelera/11/pagina.html"><img class = "pelicula" src="pelicula/cartelera/11/portada.jpg" alt="imagen11"></a>
             <a href="pelicula/cartelera/12/pagina.html"><img class = "pelicula" src="pelicula/cartelera/12/portada.jpg" alt="imagen12"></a>
         </div>
-        <h2 class="texto bg2" id="proximamente">PROXIMAMENTE:</h2>
+        <h2 class="categoria" id="proximamente">PROXIMAMENTE:</h2>
         <div class="catalogo">
             <a href="pelicula/proximamente/1/pagina.html"><img class = "pelicula" src="pelicula/proximamente/1/portada.jpg" alt="imagen1"></a>
             <a href="pelicula/proximamente/2/pagina.html"><img class = "pelicula" src="pelicula/proximamente/2/portada.jpg" alt="imagen2"></a>
             <a href="pelicula/proximamente/3/pagina.html"><img class = "pelicula" src="pelicula/proximamente/3/portada.jpg" alt="imagen3"></a>
             <a href="pelicula/proximamente/4/pagina.html"><img class = "pelicula" src="pelicula/proximamente/4/portada.jpg" alt="imagen4"></a>
         </div>
-        <h2 class="texto bg2" id="confiteria">CONFITERIA:</h2><br>
+        <h2 class = "categoria" id="confiteria">CONFITERIA:</h2><br>
         <div class="galeria">
             <img src="img/flex/flexn1.jpg" alt="combo1">
             <img src="img/flex/flexn2.jpg" alt="combo1">
@@ -91,7 +87,7 @@
             <img src="img/flex/flexn9.jpg" alt="combo1">
             <img src="img/flex/flexn10.jpg" alt="combo1">
         </div>
-        <h2 class="texto bg2" id="ofertas">OFERTAS</h2>
+        <h2 class = "categoria" id="ofertas">OFERTAS</h2>
         <div class="ofertass">
             <img src="img/ofertasimg/combo1.jpg" alt="combo1">
             <img src="img/ofertasimg/combo2.jpg" alt="combo1">
@@ -101,7 +97,7 @@
         </div>
     </main>
     <footer>
-        <div class="texto footer bg2">
+        <div class="categoria footer">
             <div class = "ft">
                 <h2>SOPORTE TECNICO</h2>
                 <p class="parrafos">El soporte técnico es el servicio que las empresas
