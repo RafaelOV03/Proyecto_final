@@ -5,7 +5,7 @@ body{
     background: #141414;
     color: #ebc47d;
 }
-
+/*Titulo*/
 .titulo{
 	display: flex;
 	flex-flow: row;
@@ -28,6 +28,7 @@ body{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(140, 30, 5, 0.5);
 }
+/*Categoria*/
 .categoria{
 	background-color: rgb(140, 30, 5);
 	border: none;
@@ -57,6 +58,72 @@ body{
 .categoria button:hover{
     background-color: rgb(115, 25, 4);
     background-blend-mode: exclusion;
+}
+/*Presentacion (Slider)*/
+.slider {
+	width: 100%;
+    height: auto;
+	margin: 5px auto 0px;
+	overflow: hidden;
+}
+.slider div {
+	display: flex;
+	padding: 0;
+	width: 333.3%;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+.slider a {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+    21% {margin-left: 0;}
+	29% {margin-left: -100%;}
+	71% {margin-left: -100%;}
+	79% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+/*Catalogo*/
+.catalogo{
+    display: grid;
+    margin: 2%;
+    grid-template-columns: repeat(4,25%);   
+}
+.catalogo a {
+    width: 95%;
+}
+.catalogo img{
+    width: 101%;
+    border: 3px solid black;
+    background-color: black;
+    margin: 1%;
+}
+.catalogo img:hover{
+    opacity: 0.8;
+}
+/*Confiteria*/
+.confiteria {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.confiteria img {
+	vertical-align: top;
+	opacity: 1;
+	width: 170px;
+	margin: 0.5%;
+
+	border:5px solid #1d1d1d;
+	height: 170px;
+}
+.confiteria img:hover {
+	border:5px solid #790303;
+	opacity: 0.9;
 }
 
 
