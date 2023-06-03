@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-pelicula.css">
+
+</head>
+<body>
+    <!--Titulo de la pagina CINECC-->
+    <header>
+        <div class="titulo">
+            <a href="index.html"><img class="logo" src="img/logo/logocine.png" width="100" alt="logocine" height="80"></a>
+            <h1 class="cinecc">CINECC</h1>
+        </div>
+        <nav>
+            <div class = "categoria">
+                <a href="index.html">VOLVER</a>
+            </div>
+        </nav>
+    </header>
+    <!--Titulo de la pelicula-->
+    <h2 class="titulo-pelicula" id = "titulo">Sin titulo</h2>
+
+    <!-- Imagenes de la pelicula-->
+    <div class="informacion-pelicula">
+        <div class="imagenes-pelicula" >
+            <img id = "portada" src="#" alt="portada">
+            <div class="avances">
+                <img id = "avance1" src="#" alt="imagen1">
+                <img id = "avance2" src="#" alt="imagen3">
+                <img id = "avance3" src="#" alt="imagen4">
+                <img id = "avance4" src="#" alt="imagen5">
+            </div>
+        </div>
+        <div class="descripcion" >
+            <strong>Descripcion:</strong>
+            <p id = "descripcion">
+                (Sin descripcion)
+               <br>
+            </p><br>
+            <p id = "duracion">
+                Duracion: Desconocida
+            </p><br>
+            <p id = "tiempo">
+                Aun sin fecha de estreno
+            </p><br>
+        </div>
+    </div>
+
+    <!--Trailer-->
+    <div class="trailer">
+        <h2>TRAILER:</h2>
+        <iframe id = "trailer" width="711" height="400" src="#" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <script src="script/fecha.js"></script>
+    <script src="script/datos-estrenos.js"></script>
+    <script>
+        let url = 0;
+        url = parseInt(window.location.href.split('#').pop()); 
+        datos(url);
+    </script>
+
+    <footer>
+        <div class="categoria footer">
+            <div>
+                <h2>SOPORTE TECNICO</h2>
+                <p class="parrafos">El soporte técnico es el servicio que las empresas
+                    ofrecen para responder las dudas de los clientes 
+                    sobre el producto o servicio que adquirieron.</p>
+            </div>
+            <div>
+                <h2>QUIENES SOMOS</h2>
+                <p class="parrafos">Una empresa dedicada al entretenimiento de las personas con la proyeccion de peliculas de estreno y venta de snaks de cine.</p>
+            </div>
+            <div>
+                <h2>CONTACTOS</h2>
+                <div class="contactos">
+                    <a href="#" onclick="nombres()"><img src="img/contactos/face.png" width="60" height="60" alt="contactofacebook"></a>
+                    <a href="#" onclick="nombres()"><img src="img/contactos/ims.png" width="60" height="60" alt="contactoimstagram"></a>
+                    <a href="#" onclick="nombres()"><img src="img/contactos/wat.png" width="60" height="60" alt="contactowatsapp"></a>
+                    <a href="#" onclick="nombres()"><img src="img/contactos/tik.png" width="60" height="60" alt="contactotiktok"></a>
+                </div> 
+                <script>
+                    function nombres(){
+                        alert("Integrantes: \n\tRafael Oporto Valencia \n\tDaniel Quenta Escobar");
+                    }
+                </script>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

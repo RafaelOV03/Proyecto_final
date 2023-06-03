@@ -132,7 +132,7 @@ function datos(id){
             document.getElementById("trailer").src = 
             "https://www.youtube.com/embed/2m1drlOZSDw";
         break;
-        case 12:
+        default:
             document.getElementById("titulo").textContent = 
             "Indiana Jones and the Dial of Destiny";
             document.getElementById("descripcion").textContent = 
