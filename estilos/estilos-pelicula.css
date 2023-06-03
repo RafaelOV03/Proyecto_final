@@ -35,12 +35,13 @@
 	margin-left: 2%;
 	width: 95%;
 	background-color:#420303;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .imagenes-pelicula img{
-	width: 30%;
-	border:5px solid #230404;
-	margin: 3%
+	width: 33%;
+	border:5px solid #a24a1b;
+
+	margin: 2%
 }
 .avances{
 	display: grid;
@@ -51,65 +52,8 @@
 }
 .avances img{
 	width: 90%;
+	height: 85%
 }
 .imagenes-pelicula img:hover{
-	border:5px solid #e09729;
-}
-
-
-
-
-
-
-
-
-
-.subtitulos{
-	margin: 2%;
-	border-radius: 10px;
-	padding: 1%;
-	
-	width: 70%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: column;
-	color: #6d5732;
-
-}
-.subtitulos img{
-	margin-left: 10%;
-	width: 35%;
-}
-.subtitulos div{
-	margin-left: 2%;
-	margin-right: 2%;
-	font-size: 100%;
-}
-.trailer{
-	display: flex;
-	justify-content: center;
-}
-
-.galeria2 {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.galeria2 img {
-	opacity: 1;
-	width: 190px;
-	margin: 2%;
-	padding: 0.5%;
-	border:1px solid #000000;
-	height: 25%;
-}
-.galeria2 img:hover {
-	border:1px solid #ff0000;
-	opacity: 0.3;
-}
-.contenedordea{
-	align-self: auto;
-	display: flex;
+	border: 5px solid #e09729;
 }
